@@ -1,0 +1,124 @@
+
+body {
+
+    margin: 20px 20px;
+    font-family:sans-serif;
+   
+}
+.section-one{
+    padding-top: 30%;
+    height: 800px;
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    letter-spacing: 3px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)), url("https://media.architecturaldigest.com/photos/5a5e7ac1854be45dfd8b687b/master/pass/GettyImages-589708417.jpg")
+}
+
+.section-one h1{
+    font-size: 80px;
+
+}
+
+.section-one h2 {
+    font-size: 50px
+}
+
+.section-one h3{
+    font-size: 30px;
+}
+
+.section-two{
+margin-top: 20px;
+ height: 1000px;
+ color:white;
+ background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)), url("https://media.architecturaldigest.com/photos/5da4c5243baf780009fd912a/16:9/w_2560%2Cc_limit/9%252520page%252520294-295.jpg");
+
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+.intro{
+    color:white;
+   
+    width: 50%;
+    float:right;
+    padding-right: 5%;
+    padding-top: 10%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.intro h2{
+    margin-top: 30%;
+    font-size: 50px;
+    
+}
+
+.intro p{
+    margin-top: 10px;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+}
+
+.section-three{
+    display: flex;
+    justify-content: center;
+    margin-left: -5px;
+}
+.sub-section-one, .sub-section-two, .sub-section-three{
+   
+    height: 500px;
+    margin: 10px 5px;
+    
+    text-align: center;
+    background-color:blueviolet;
+    display: flex;
+  
+    justify-content: center;
+}
+
+.word-box{
+    margin-top: 10%;
+    
+    height: 130px;
+    width: 80%;
+    background-color:black;
+    color:white;
+    
+}
+
+.word-box h3{
+    margin-top: 10px;
+}
+
+.word-box p{
+    margin-top: 10px;
+}
+
+.sub-section-one {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom center;
+    
+    background-image: url("https://i.pinimg.com/originals/a3/6a/fe/a36afe3ba9086c0dd7ee22623fc208c7.jpg")
+}
+
+.sub-section-two {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom center;
+    background-image: url("https://www.traditionalbuilding.com/.image/t_share/MTQ5MjY0MTgyNzc1MTI5NTQx/casement-metal-window.jpg")
+}
+
+.sub-section-three {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom center;
+    background-image: url("https://www.thespruce.com/thmb/hDyS18tQ2g7dk0XrE8qXzW6F1HY=/3834x2584/filters:no_upscale():max_bytes(150000):strip_icc()/dormer-595303568-crop-57ce28773df78c71b6b52a05.jpg")
+}
